@@ -1,5 +1,8 @@
 {
   "name": "rbac-saas-nextjs",
+  "author": {
+    "name": "Thalles Silva"
+  },
   "private": true,
   "scripts": {
     "build": "turbo run build",
