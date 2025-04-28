@@ -33,7 +33,19 @@ importers:
         specifier: ^0.6.11
         version: 0.6.11(prettier@3.5.3)
 
-  config/typescript-config: {}
+  config/typescript: {}
+
+  packages/auth:
+    devDependencies:
+      '@saas/eslint':
+        specifier: workspace:*
+        version: link:../../config/eslint
+      '@saas/prettier':
+        specifier: workspace:*
+        version: link:../../config/prettier
+      '@saas/typescript':
+        specifier: workspace:*
+        version: link:../../config/typescript
 
 packages:
 
