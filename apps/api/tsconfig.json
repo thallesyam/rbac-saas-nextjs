@@ -1,0 +1,4 @@
+{
+  "extends": "@saas/typescript/node.json",
+  "include": ["src/**/*"]
+}
