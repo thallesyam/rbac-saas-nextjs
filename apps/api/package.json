@@ -6,9 +6,11 @@
   },
   "dependencies": {
     "@fastify/cors": "^11.2.0",
+    "@prisma/client": "^7.7.0",
     "@saas/auth": "workspace:*",
     "fastify": "^5.8.5",
     "fastify-type-provider-zod": " 6.1.0",
+    "prisma": "^7.7.0",
     "zod": "4.3.6"
   },
   "devDependencies": {
