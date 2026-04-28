@@ -1,0 +1,82 @@
+apps/api/tsconfig.json
+  ca4029fb3d96cdda 3-9
+apps/api/package.json
+  fa1813ce02ef6599 9,11-12,15
+apps/api/src/lib/prisma.ts
+  0d9ef9ee51a28a79 3-4
+  fa1813ce02ef6599 1
+apps/api/prisma/schema.prisma
+  4abb1a7a72d6e4de 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "293b146d0e1ff970d30b946af17ed2f1c6bc2bc8",
+  "prompts": {
+    "0d9ef9ee51a28a79": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "762a52e1-829c-4840-ae61-5d933384d067",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Thalles silva",
+      "messages": [],
+      "total_additions": 24,
+      "total_deletions": 30,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    },
+    "4abb1a7a72d6e4de": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8b6f884e-8618-45fc-868d-0e080a4fe960",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Thalles silva",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "a57038500b53a9a8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bc5af762-0525-40a1-9afe-e19d17179670",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Thalles silva",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "ca4029fb3d96cdda": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "34d20403-b876-4ba4-8332-66c0105d9ac7",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Thalles silva",
+      "messages": [],
+      "total_additions": 21,
+      "total_deletions": 3,
+      "accepted_lines": 7,
+      "overriden_lines": 2
+    },
+    "fa1813ce02ef6599": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d56212a2-8932-446e-888a-a90e2a89848b",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Thalles silva",
+      "messages": [],
+      "total_additions": 640,
+      "total_deletions": 817,
+      "accepted_lines": 24,
+      "overriden_lines": 0
+    }
+  }
+}
