@@ -4,6 +4,9 @@
   "scripts": {
     "dev": "tsx watch src/http/server.ts"
   },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
   "dependencies": {
     "@fastify/cors": "^11.2.0",
     "@prisma/client": "6.4.1",
@@ -16,6 +19,7 @@
     "zod": "4.3.6"
   },
   "devDependencies": {
+    "@faker-js/faker": "^10.4.0",
     "@saas/eslint": "workspace:*",
     "@saas/prettier": "workspace:*",
     "@saas/typescript": "workspace:*",
