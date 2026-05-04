@@ -45,6 +45,9 @@ importers:
         specifier: 4.3.6
         version: 4.3.6
     devDependencies:
+      '@faker-js/faker':
+        specifier: ^10.4.0
+        version: 10.4.0
       '@saas/eslint':
         specifier: workspace:*
         version: link:../../config/eslint
@@ -281,6 +284,10 @@ packages:
   '@eslint/js@8.57.1':
     resolution: {integrity: sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==, tarball: https://npm.artifacts.furycloud.io/repository/all/@eslint/js/-/js-8.57.1.tgz}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+
+  '@faker-js/faker@10.4.0':
+    resolution: {integrity: sha512-sDBWI3yLy8EcDzgobvJTWq1MJYzAkQdpjXuPukga9wXonhpMRvd1Izuo2Qgwey2OiEoRIBr35RMU9HJRoOHzpw==, tarball: https://npm.artifacts.furycloud.io/repository/all/@faker-js/faker/-/faker-10.4.0.tgz}
+    engines: {node: ^20.19.0 || ^22.13.0 || ^23.5.0 || >=24.0.0, npm: '>=10'}
 
   '@fastify/ajv-compiler@4.0.5':
     resolution: {integrity: sha512-KoWKW+MhvfTRWL4qrhUwAAZoaChluo0m0vbiJlGMt2GXvL4LVPQEjt8kSpHI3IBq5Rez8fg+XeH3cneztq+C7A==, tarball: https://npm.artifacts.furycloud.io/repository/all/@fastify/ajv-compiler/-/ajv-compiler-4.0.5.tgz}
@@ -1915,6 +1922,8 @@ snapshots:
       - supports-color
 
   '@eslint/js@8.57.1': {}
+
+  '@faker-js/faker@10.4.0': {}
 
   '@fastify/ajv-compiler@4.0.5':
     dependencies:
